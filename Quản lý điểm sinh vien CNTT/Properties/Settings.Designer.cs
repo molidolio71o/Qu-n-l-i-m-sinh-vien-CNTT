@@ -12,7 +12,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "10.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.8.1.0")]
     public sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -28,6 +28,17 @@ namespace Quản_lý_điểm_sinh_vien_CNTT.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-68C93J4\\SQLEXPRESS;Initial Catalog=Quanlydiem;User ID=sa;Pass" +
             "word=123456")]
+        public string QuanlydiemConnectionString3 {
+            get {
+                return ((string)(this["QuanlydiemConnectionString3"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-K38NU97S\\SQLEXPRESS01;Initial Catalog=Quanlydiem;Integrated Se" +
+            "curity=True")]
         public string QuanlydiemConnectionString {
             get {
                 return ((string)(this["QuanlydiemConnectionString"]));
@@ -37,8 +48,8 @@ namespace Quản_lý_điểm_sinh_vien_CNTT.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-68C93J4\\SQLEXPRESS;Initial Catalog=Quanlydiem;User ID=sa;Pass" +
-            "word=123456")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-K38NU97S\\SQLEXPRESS01;Initial Catalog=Quanlydiem;Integrated Se" +
+            "curity=True")]
         public string QuanLyDiemConnectionString1 {
             get {
                 return ((string)(this["QuanLyDiemConnectionString1"]));
@@ -48,22 +59,11 @@ namespace Quản_lý_điểm_sinh_vien_CNTT.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-68C93J4\\SQLEXPRESS;Initial Catalog=Quanlydiem;User ID=sa;Pass" +
-            "word=123456")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-K38NU97S\\SQLEXPRESS01;Initial Catalog=Quanlydiem;Integrated Se" +
+            "curity=True")]
         public string QuanlydiemConnectionString2 {
             get {
                 return ((string)(this["QuanlydiemConnectionString2"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-68C93J4\\SQLEXPRESS;Initial Catalog=Quanlydiem;User ID=sa;Pass" +
-            "word=123456")]
-        public string QuanlydiemConnectionString3 {
-            get {
-                return ((string)(this["QuanlydiemConnectionString3"]));
             }
         }
     }
