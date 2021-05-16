@@ -16,7 +16,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
     {
         //Phương thức kết nối chung 
      
-
+        
  
         private SqlConnection conn;
         private SqlCommand cmd;
