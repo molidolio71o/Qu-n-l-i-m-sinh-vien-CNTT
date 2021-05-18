@@ -32,6 +32,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             
             string source = @"Data Source=LAPTOP-K38NU97S\SQLEXPRESS01;Initial Catalog=Quanlydiem;Integrated Security=True";       
             conn = new SqlConnection(source);
+
             conn.Open();            
             return conn;   
         }

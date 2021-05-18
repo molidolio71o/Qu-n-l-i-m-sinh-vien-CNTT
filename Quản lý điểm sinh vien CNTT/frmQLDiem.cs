@@ -302,6 +302,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 // Trả tài nguyên
                 cmd.Dispose();
             }
+
         }
 
         private void button4_Click(object sender, EventArgs e)

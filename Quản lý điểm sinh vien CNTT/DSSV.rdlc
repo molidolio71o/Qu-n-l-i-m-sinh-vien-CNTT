@@ -15,6 +15,7 @@
         <Field Name="MaSv">
           <DataField>MaSv</DataField>
           <rd:TypeName>System.String</rd:TypeName>
+			
         </Field>
         <Field Name="HoTen">
           <DataField>HoTen</DataField>

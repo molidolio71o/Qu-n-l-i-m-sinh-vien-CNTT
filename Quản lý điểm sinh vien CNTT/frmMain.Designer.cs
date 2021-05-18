@@ -83,6 +83,7 @@
             // 
             // menuStrip
             // 
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuItemHethong,
             this.MnuItemDanhMuc,
@@ -307,6 +308,7 @@
             // 
             // statusStrip
             // 
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
             resources.ApplyResources(this.statusStrip, "statusStrip");
@@ -320,7 +322,6 @@
             // pictureBox1
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.happy_new_year_2017_7;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -328,7 +329,6 @@
             // pictureBox2
             // 
             resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Image = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.happy_new_year_2017_7;
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
@@ -394,7 +394,6 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BackgroundImage = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.happy_new_year_2017_71;
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.btl6);
             this.Controls.Add(this.btl4);
